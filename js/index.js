@@ -58,7 +58,7 @@ comparar valores, executar operações aritiméticas e muito mais.
 São os sinais que usamos : + * / = ++ -- += -= && || etc...
 São separados por seis categorias :
 
-1) Operadores Aritiméticos (matemáticos)
+1)Operadores Aritiméticos (matemáticos)
 2)Operadores de Atribuição.
 3)Operadores de Sequência.
 4)Operadores de Comparação
@@ -69,7 +69,7 @@ São separados por seis categorias :
 
 //Primeiro exemplo matemático usandos = - * / 
 
- var valor1, valor2, total;
+/*  var valor1, valor2, total;
 valor1 = 5;
 valor2 = 2;
 
@@ -98,13 +98,13 @@ valor2 = 2;
 
 total = ++ valor1 ;
 alert(total);
-alert('O valor1 ficou: ' + valor1); 
+alert('O valor1 ficou: ' + valor1);  */
 
-/* // Operadores de Atribuição
+ // Operadores de Atribuição
 
 var valor1, valor2, total;
 valor1 = 5;
 valor2 = 2;
 
 //Outro exemplo
-valor1 += valor2; */
+valor1 += valor2; 
