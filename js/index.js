@@ -10,7 +10,7 @@ podem "variar", ou seja , podem ter qualquer tipo de valor
 No Javascript temos 3 palavras chaves para declarar qualquer tipo de variáveis:
 -> var = Podem ser redeclaradas ou seja sempre vai valer a ultima declaração.
 -> let = Obedece a o bloco de trabalho,usado para não ter problema de repetição. 
--> const = Constante não muda. 
+-> const = Constante não muda. Variável com valor especifico
 */
 /* var pote = "Bombom";
 alert(pote);
@@ -46,10 +46,10 @@ var PESSOA = "Daniel";
 var pessoa = "Rocha";
 console.log(PESSOA); /* ele vai buscar por pessoa ou PESSOA individualmente ele entende cada declaração como unica */ 
 
-let x= 10;
+const x= 10;
 
 {
-    let x= 5;
+    const x= 5;
 }
 
 document.getElementById("texto").innerHTML = x;
