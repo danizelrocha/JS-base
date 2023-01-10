@@ -102,9 +102,18 @@ alert('O valor1 ficou: ' + valor1);  */
 
  // Operadores de Atribuição
 
-var valor1, valor2, total;
+/* var valor1, valor2, total;
 valor1 = 5;
 valor2 = 2;
 
 //Outro exemplo
-valor1 += valor2; 
+valor1 += valor2;  */
+
+// Operador Sequência -> concatenar numeros com string
+
+var valor1, valor2, total;
+valor1 = "Daniel ";
+valor2 = "Rocha";
+
+total = valor1 + valor2;
+alert(total);
