@@ -248,3 +248,10 @@ alert(total); */
 
 
 // Operador Ternario ou condicional
+
+var idade , eleitor;
+idade = 25;
+eleitor = (idade<=16) ? "Não, Eleitor." : "Sim, Eleitor.";
+
+alert('A resposta é : ' + eleitor + ' A idade dele é de : '+ idade +' anos.');
+
