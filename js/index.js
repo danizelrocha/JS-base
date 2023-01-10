@@ -9,13 +9,13 @@ Variáveis são recipientes onde podemos armazenar informações que
 podem "variar", ou seja , podem ter qualquer tipo de valor
 No Javascript temos 3 palavras chaves para declarar qualquer tipo de variáveis:
 -> var = Podem ser redeclaradas ou seja sempre vai valer a ultima declaração.
--> let
--> const 
+-> let = Obedece a o bloco de trabalho,usado para não ter problema de repetição. 
+-> const = Constante não muda. 
 */
-var pote = "Bombom";
+/* var pote = "Bombom";
 alert(pote);
 
-/* Buscar resultados no inspecionar  dentro a opção console */
+/* Buscar resultados no inspecionar  dentro a opção console 
 var a =1;
 var b = 5;
 var c = a + b;
@@ -42,7 +42,14 @@ pessoa = nome + " " + sobrenome + " " + soma;
 
 document.getElementById("texto").innerHTML = pessoa;
 
-
 var PESSOA = "Daniel";
 var pessoa = "Rocha";
-console.log(PESSOA); /* ele vai buscar por pessoa ou PESSOA individualmente ele entende cada declaração como unica */
+console.log(PESSOA); /* ele vai buscar por pessoa ou PESSOA individualmente ele entende cada declaração como unica */ 
+
+let x= 10;
+
+{
+    let x= 5;
+}
+
+document.getElementById("texto").innerHTML = x;
