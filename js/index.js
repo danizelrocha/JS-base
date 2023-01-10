@@ -67,6 +67,8 @@ São separados por seis categorias :
 
 */
 
+
+
 //Primeiro exemplo matemático usandos = - * / 
 
 /*  var valor1, valor2, total;
@@ -100,6 +102,9 @@ total = ++ valor1 ;
 alert(total);
 alert('O valor1 ficou: ' + valor1);  */
 
+
+
+
  // Operadores de Atribuição
 
 /* var valor1, valor2, total;
@@ -109,11 +114,137 @@ valor2 = 2;
 //Outro exemplo
 valor1 += valor2;  */
 
-// Operador Sequência -> concatenar numeros com string
 
-var valor1, valor2, total;
+
+
+// Operador Sequência -> concatenar sinal de + se transforma para concatenar string com string, uma sequência.
+
+/* var valor1, valor2, total;
 valor1 = "Daniel ";
 valor2 = "Rocha";
 
 total = valor1 + valor2;
+alert(total); */
+
+
+
+
+// Opredores de comparação -> true  false
+
+// Um sinal de = significa . Dois sinais de == significa
+
+//exempo de False
+/* var valor1, valor2, total;
+valor1 = 8;
+valor2 = 10;
+
+total = (valor1 == valor2);
+alert(total); */
+
+// exemplo de True
+/* var valor1, valor2, total;
+valor1 = 8;
+valor2 = 8;
+
+total = (valor1 == valor2);
+alert(total); */
+
+// Com três sinais de ===  você verifica se o tipo são igual ex numero com numero ou string com string
+
+//exempo de False
+/* var valor1, valor2, total;
+valor1 = 8;
+valor2 = "8";
+
+total = (valor1 === valor2);
+alert(total); */
+
+// exemplo de True
+
+/* var valor1, valor2, total;
+valor1 = 8;
+valor2 = 8;
+
+total = (valor1 === valor2);
+alert(total); */
+
+//Quando usamoa != quer dizer que o valor1 não é igual ao valor2
+
+// exemplo de True
+
+/* var valor1, valor2, total;
+valor1 = 8;
+valor2 = 12;
+
+total = (valor1 != valor2);
 alert(total);
+ */
+// exemplo de False
+
+/* var valor1, valor2, total;
+valor1 = 8;
+valor2 = 8;
+
+total = (valor1 != valor2);
+alert(total); */
+
+
+//Quando usamoa !== quer dizer que o valor1 não é igual ao TIPO valor2
+
+// exemplo de False
+
+/*  var valor1, valor2, total;
+valor1 = "8";
+valor2 = "8";
+
+total = (valor1 !== "8");
+alert(total); */
+ 
+// exemplo de True
+
+/* var valor1, valor2, total;
+valor1 = 8;
+valor2 = 8;
+
+total = (valor1 !== "8");
+alert(total); */
+
+//Exemplos de > maior ou < menor
+
+//True
+/* var valor1, valor2, total;
+valor1 = 8;
+valor2 = 8;
+
+total = (valor1 > 4); //MAIOR
+alert(total); */
+
+//False
+/* var valor1, valor2, total;
+valor1 = 8;
+valor2 = 8;
+
+total = (valor1 < 4); //Menor
+alert(total); */
+ 
+
+// Exemplo de maior ou igual e menor ou igual
+
+/* var valor1, valor2, total;
+valor1 = 8;
+valor2 = 8;
+
+total = (valor1 <= 7); //Menor ou igual False
+alert(total);  */
+
+/* var valor1, valor2, total;
+valor1 = 8;
+valor2 = 8;
+
+total = (valor1 >= 8); //Maior ou igual True
+alert(total); */
+
+
+
+
+// Operador Ternario ou condicional
