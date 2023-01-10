@@ -10,12 +10,15 @@ podem "variar", ou seja , podem ter qualquer tipo de valor
 No Javascript temos 3 palavras chaves para declarar qualquer tipo de variáveis:
 -> var = Podem ser redeclaradas ou seja sempre vai valer a ultima declaração.
 -> let = Obedece a o bloco de trabalho,usado para não ter problema de repetição. 
--> const = Constante não muda. Variável com valor especifico
+-> const = Constante não muda. 
 */
-/* var pote = "Bombom";
-alert(pote);
 
-/* Buscar resultados no inspecionar  dentro a opção console 
+/* inicio
+
+var pote = "Bombom";
+ alert(pote);
+
+/* Buscar resultados no inspecionar  dentro a opção console */
 var a =1;
 var b = 5;
 var c = a + b;
@@ -46,10 +49,62 @@ var PESSOA = "Daniel";
 var pessoa = "Rocha";
 console.log(PESSOA); /* ele vai buscar por pessoa ou PESSOA individualmente ele entende cada declaração como unica */ 
 
-const x= 10;
 
-{
-    const x= 5;
-}
+ 
 
-document.getElementById("texto").innerHTML = x;
+/* Entendendo operadores:
+-> Os operadores de Javascript são usados para atribuir valores,
+comparar valores, executar operações aritiméticas e muito mais.
+São os sinais que usamos : + * / = ++ -- += -= && || etc...
+São separados por seis categorias :
+
+1) Operadores Aritiméticos (matemáticos)
+2)Operadores de Atribuição.
+3)Operadores de Sequência.
+4)Operadores de Comparação
+5)Operador Condicional (Ternário)
+6)Operador Lógico.
+
+*/
+
+//Primeiro exemplo matemático usandos = - * / 
+
+ var valor1, valor2, total;
+valor1 = 5;
+valor2 = 2;
+
+
+total = valor1 + valor2;
+alert(total); 
+
+// O operador ++ acrescenta o -- decrementa
+
+//Decremento --
+ var valor1, valor2, total;
+valor1 = 5;
+valor2 = 2;
+
+
+total = -- valor1 ;
+alert(total);
+alert('O valor1 ficou: ' + valor1);
+
+
+//Acremento ++
+var valor1, valor2, total;
+valor1 = 5;
+valor2 = 2;
+
+
+total = ++ valor1 ;
+alert(total);
+alert('O valor1 ficou: ' + valor1); 
+
+/* // Operadores de Atribuição
+
+var valor1, valor2, total;
+valor1 = 5;
+valor2 = 2;
+
+//Outro exemplo
+valor1 += valor2; */
