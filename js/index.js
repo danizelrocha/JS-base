@@ -247,11 +247,43 @@ alert(total); */
 
 
 
-// Operador Ternario ou condicional
+/* // Operador Ternario ou condicional
 
 var idade , eleitor;
 idade = 25;
 eleitor = (idade<=16) ? "Não, Eleitor." : "Sim, Eleitor.";
 
-alert('A resposta é : ' + eleitor + ' A idade dele é de : '+ idade +' anos.');
+alert('A resposta é : ' + eleitor + ' A idade dele é de : '+ idade +' anos.'); */
 
+
+
+//Operadores Logicos
+
+/* var idade , eleitor, resultado;
+idade = 65;
+eleitor = (idade<=16) ? "Não, Eleitor." : "Sim, Eleitor.";
+
+resultado = (idade > 60 && idade < 70); //True //False
+
+alert('A resposta é : ' + resultado + ' A idade dele é de : '+ idade +' anos.'); */
+
+
+// Outro exemplo
+
+/* var idade , eleitor, resultado;
+idade = 71;
+eleitor = (idade <= 16) ? "Não, Eleitor." : "Sim, Eleitor.";
+
+resultado = (idade === 60 || idade === 72); //True //False o caractere || significa ou
+
+alert('A resposta é : ' + resultado + ' A idade dele é de : '+ idade +' anos.'); */
+
+//Negação
+
+var idade , eleitor, resultado;
+idade = 71;
+eleitor = (idade <= 16) ? "Não, Eleitor." : "Sim, Eleitor.";
+
+resultado = !(idade === 65); //True //False o caractere ! significa negação
+
+alert('A resposta é : ' + resultado + ' A idade dele é de : '+ idade +' anos.');
