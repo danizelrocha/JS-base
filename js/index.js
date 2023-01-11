@@ -646,10 +646,10 @@ lista[3] = "leite"; */
 
 
 
-var item1 = "arroz";
+/* var item1 = "arroz";
 var item2 = "feijão";
 var item3 = "macarrão";
-var item4 = "leite";
+var item4 = "leite"; */
 
 /* const lista = ["arroz","feijão","macarrão","leite"];
 let x = lista[3];
@@ -658,8 +658,21 @@ alert(x); */
 
 
 //Uso frequnte de array
-const lista = ["arroz","feijão","macarrão","leite"];
+/* const lista = ["arroz","feijão","macarrão","leite"];
 lista[0] = "Café";
 alert(lista[0]); 
 
-console.log(lista);
+console.log(lista); */
+
+
+
+var item1 = "arroz";
+var item2 = "feijão";
+var item3 = "macarrão";
+var item4 = "leite"; 
+
+const pessoa = ["Daniel", "Rocha", 45]; //arrays
+/* const pessoa = {nome:"Daniel", sobrenome:"Rocha", idade:45}; //objeto */
+
+pessoa.nome; //objeto
+pessoa[0]; //arrays
