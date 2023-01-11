@@ -377,3 +377,14 @@ alert("A temperatura é de " + x +" graus celcius"); */
     var x = 2;
 }
  */
+
+
+
+/* OBJETO
+Objetos são basicamente variáveis com muitos valores dentro.
+
+EX: const carro = {marca: "Renalt", modelo "Sandeiro", ano: 2015}
+
+Os valores dentro de um objeto são chamados de propriedades.
+
+Objetos também podem ter métodos. Um método é uma funçaõ colocada dentro de uma propriedade.*/
