@@ -679,14 +679,25 @@ pessoa[0]; //arrays */
 
 
 
+/* var item1 = "arroz";
+var item2 = "feijão";
+var item3 = "macarrão";
+var item4 = "leite"; 
+
+const pessoa = ["Daniel", "Rocha", 45, "Dev"]; */ //arrays -> 3 itens.
+
+/* alert(pessoa.length);  */
+/* 
+alert(pessoa[pessoa.length - 1]) ; */ // mostra o ultimo item de uma lista independente da quantidade.
+
+
+
 var item1 = "arroz";
 var item2 = "feijão";
 var item3 = "macarrão";
 var item4 = "leite"; 
 
-const pessoa = ["Daniel", "Rocha", 45, "Dev"]; //arrays -> 3 itens.
+const pessoa = ["Daniel", "Rocha", 45, "Dev"]; //arrays
+pessoa.push("Brasileiro");
 
-/* alert(pessoa.length);  */
-
-alert(pessoa[pessoa.length - 1]) ; // mostra o ultimo item de uma lista independente da quantidade.
-
+console.log(pessoa);
