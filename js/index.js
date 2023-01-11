@@ -388,3 +388,77 @@ EX: const carro = {marca: "Renalt", modelo "Sandeiro", ano: 2015}
 Os valores dentro de um objeto são chamados de propriedades.
 
 Objetos também podem ter métodos. Um método é uma funçaõ colocada dentro de uma propriedade.*/
+
+
+
+//Visão geral no console Log
+
+/* const carro = {
+    marca:"ford",
+    modelo: "ka",
+    ano:2015,
+    placa:"ABC1234",
+    buzina: function() {alert ('Biiiiiiiiiiii') }
+};
+
+console.log(carro); */
+
+
+
+//Item especifico no console
+
+/* const carro = {
+    marca:"ford",
+    modelo: "ka",
+    ano:2015,
+    placa:"ABC1234",
+    buzina: function() {alert ('Biiiiiiiiiiii') }
+};
+
+console.log(carro["marca"]); */
+
+
+
+//Ou pode chamar o console desta forma também
+/* const carro = {
+    marca:"ford",
+    modelo: "ka",
+    ano:2015,
+    placa:"ABC1234",
+    buzina: function() {alert ('Biiiiiiiiiiii') }
+};
+
+console.log(carro.ano); */
+
+
+
+//Ou um metodo a ser chamado
+
+/* const carro = {
+    marca:"ford",
+    modelo: "ka",
+    ano:2015,
+    placa:"ABC1234",
+    buzina: function() {alert ('Biiiiiiiiiiii') }
+};
+
+carro.buzina(); */
+
+
+//Metodo completo para chamar no console
+
+const carro = {
+    marca:"Ford",
+    modelo: "Ka",
+    ano:2015,
+    placa:"ABC1234",
+    buzina: function() {alert ('Biiiiiiiiiiii') },
+    completo: function(){
+        return "A marca é: "+this.marca+
+        " e o modelo é: "+this.modelo+
+        " o ano de fabricação é: "+this.ano+
+        " e a placa do carro é: "+this.placa;
+    }
+};
+
+console.log(carro.completo());
