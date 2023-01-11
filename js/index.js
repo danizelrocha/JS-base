@@ -535,11 +535,11 @@ function eventoDblClick() {
 
 // Evento onmouseover
 
-function viraVermelho(){
+/* function viraVermelho(){
     let div = document.getElementById("teste");
     div.style.backgroundColor = "red";
 
-}
+} */
 
 
 //Evento onmouseout
@@ -562,7 +562,13 @@ function viraVioleta(){
 
 //----------Evento do tipo input---------------
 
-
-function limpaTexto() {
+//onfocus
+/* function limpaTexto() {
     document.getElementById("campoTexto").value = "";
+}
+ */
+
+//onchange
+function mudou() {
+    console.log('Mudou');
 }
