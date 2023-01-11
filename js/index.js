@@ -561,3 +561,8 @@ function viraVioleta(){
 
 
 //----------Evento do tipo input---------------
+
+
+function limpaTexto() {
+    document.getElementById("campoTexto").value = "";
+}

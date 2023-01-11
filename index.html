@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css"> 
     <title>Javascript</title>
 </head>
-<body onmouseup="alert('Clicou na tela')">  <!-- clicou depois que soltar acionou -->
+<body> 
     <h1>Aprendendo Javascript</h1>
     <p id="texto"></p>
 
@@ -21,7 +21,13 @@
        onmouseover="viraVermelho()">
    </div> <br>
 
-   <input id="campoTexto" type="text" placeholder="Digite alguma coisa">
+   <input 
+     onfocus="limpaTexto()"
+     id="campoTexto" 
+     type="text" 
+     placeholder="Digite alguma coisa"
+     value="Já vem com texto"
+    >
 
    <!--  <button onclick="alertaHello()">Clique aqui</button> -->
    <!--  <p>
