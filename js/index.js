@@ -518,18 +518,18 @@ onresize -> Dispara quando a um redimencionamento da janela.
 //-------------Evento de onclick-------------------------
 
 
-function eventoClick() {
+/* function eventoClick() { */
  /*    alert('Acionar um evento de click'); */
-    document.body.style.background = "orange";
-} 
+ /*    document.body.style.background = "orange";
+} */
 
 
 //Evento ondblclick
 
- function eventoDblClick() {
+/*  function eventoDblClick() {
     alert('Evento de click duplo');
     document.body.style.background = "orange"; 
-}
+} */
  
 //---------------------EVENTOS MOUSE----------------------
 
@@ -544,11 +544,11 @@ function eventoClick() {
 
 //Evento onmouseout
 
-function viraVioleta(){
+/* function viraVioleta(){
     let div = document.getElementById("teste");
     div.style.backgroundColor = "blueviolet";
 
-}
+} */
 
 
 //Evento onmousemove
@@ -563,26 +563,26 @@ function viraVioleta(){
 //----------Evento do tipo input---------------
 
 //onfocus
-function limpaTexto() {
+/* function limpaTexto() {
     document.getElementById("campoTexto").value = "";
 }
- 
+  */
 
 //onchange
-function mudou() {
+/* function mudou() {
     console.log('Mudou');
-} 
+}  */
 
 //onblur
 //HTML
 
 //onkeypress
 
-function teclaPressionada() {
+/* function teclaPressionada() {
     let input = document.getElementById("campoTexto").value;
     console.log(input);
 }
-
+ */
 
 //onloading
 // HTML
@@ -617,3 +617,16 @@ Os arrays JavaScript são usados para armazernas vários valores
  
  E assim por diante.
  */
+varitem1 = "arroz";
+varitem2 = "feijão";
+varitem3 = "macarrão";
+varitem4 = "leite";
+
+const lista = [
+    "arroz", 
+    "feijão", 
+    "macarrão", 
+    "leite"
+];
+
+alert(lista[0]);
