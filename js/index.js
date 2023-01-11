@@ -498,7 +498,7 @@ Existem muitos eventos. Veja os mais utilizados.
 onclick -> Dispara quando recebe um click.
 ondblclick-> Dispara quando clicado duas vezes.
 onmouseover -> Dispara quando o mouse está sobre.
-onmoudeout -> Dispara quando o mouse é movido para fora do elemento.
+onmouseout -> Dispara quando o mouse é movido para fora do elemento.
 onmousemove -> Dispara quando o mouse é movido no elemento.
 onmousedown -> Dispara quando o click do botão foi precionado.
 onmouseup -> Dispara quando o click do botão é liberado.
@@ -511,3 +511,53 @@ onkeyup -> Dispara quando uma tecla é sota sobre um elemento.
 onload -> Dispara quando a página terminou de ser carregada. Boddy.
 onresize -> Dispara quando a um redimencionamento da janela.
 */
+
+
+
+
+//Evento de onclick
+
+/* 
+function eventoClick() {
+    alert('Acionar um evento de click');
+    document.body.style.background = "orange";
+} */
+
+
+//Evento ondblclick
+
+function eventoDblClick() {
+    alert('Evento de click duplo');
+    document.body.style.background = "orange";
+}
+ 
+//---------------------EVENTOS MOUSE----------------------
+
+// Evento onmouseover
+
+function viraVermelho(){
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "red";
+
+}
+
+
+//Evento onmouseout
+
+function viraVioleta(){
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "blueviolet";
+
+}
+
+
+//Evento onmousemove
+
+/* function adicionaTexto (){
+    let p = document.getElementById("texto");
+    p. append('O mouse moveu. ');
+
+} */
+
+
+//Evento onmousedown

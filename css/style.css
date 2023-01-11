@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color: rgba(228, 213, 195, 0.046);
 }
 
 button{
@@ -7,4 +8,11 @@ button{
     background-color: green;
     cursor: pointer;
     border-radius: 4px;
+}
+
+div{
+    margin: auto auto;
+    width: 80%;
+    height: 200px;
+    background-color: blueviolet;
 }
