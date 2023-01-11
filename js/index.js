@@ -631,8 +631,15 @@ varitem4 = "leite";
 
 alert(lista[0]); */
 
-const lista = [];
+
+
+/* const lista = [];
 lista[0] = "arroz";
 lista[1] = "feijão";
 lista[2] = "macarrão";
-lista[3] = "leite";
+lista[3] = "leite"; */
+
+
+
+
+const lista = new Array("arroz","feijão","macarrão","leite");
