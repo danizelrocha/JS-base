@@ -515,7 +515,7 @@ onresize -> Dispara quando a um redimencionamento da janela.
 
 
 
-//Evento de onclick
+//-------------Evento de onclick-------------------------
 
 /* 
 function eventoClick() {
@@ -560,4 +560,4 @@ function viraVioleta(){
 } */
 
 
-//Evento onmousedown
+//----------Evento do tipo input---------------

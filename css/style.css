@@ -16,3 +16,10 @@ div{
     height: 200px;
     background-color: blueviolet;
 }
+
+input{
+    padding: 40px;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 12px;
+}
