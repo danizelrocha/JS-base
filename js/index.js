@@ -697,8 +697,14 @@ var item2 = "feijão";
 var item3 = "macarrão";
 var item4 = "leite"; 
 
-const pessoa = ["Daniel", "Rocha", 45, "Dev"]; //arrays
+/* const pessoa = ["Daniel", "Rocha", 45, "Dev"]; */ //arrays 
 /* pessoa.push("Brasileiro"); */
-pessoa[pessoa.length] = "Solteiro";
+/* pessoa[pessoa.length] = "Solteiro";
 
 console.log(pessoa);
+ */
+
+const pessoa = ["Daniel", "Rocha", 45, "Dev"];
+pessoa[8] = "Solteiro";
+
+alert (pessoa[6]);
