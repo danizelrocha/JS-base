@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css"> 
     <title>Javascript</title>
 </head>
-<body> 
+<body onload="alert('Terminou de carregar')"> 
     <h1>Aprendendo Javascript</h1>
     <p id="texto"></p>
     <!-- <button onclick="eventoClick()">Clique aqui</button>  --> <!-- evento click  -->
@@ -24,14 +24,13 @@
        onmouseover="viraVermelho()">
    </div> <br>
    <input 
-     onkeypress="teclaPressionada()"
+     onkeydown="teclaPressionada()"
      onblur="eventoClick()"
      id="campoTexto" 
      type="text" 
      placeholder="Digite alguma coisa"
-     value="Já vem com texto"
+     value=""
     >
-
    <!--  <button onclick="alertaHello()">Clique aqui</button> -->
    <!--  <p>
         <script>

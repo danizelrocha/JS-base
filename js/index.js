@@ -582,3 +582,6 @@ function teclaPressionada() {
     let input = document.getElementById("campoTexto").value;
     console.log(input);
 }
+
+
+//onloading
