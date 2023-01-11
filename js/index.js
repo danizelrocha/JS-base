@@ -585,3 +585,8 @@ function teclaPressionada() {
 
 
 //onloading
+// HTML
+
+
+//onresize
+//HTML
