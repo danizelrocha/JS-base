@@ -517,18 +517,18 @@ onresize -> Dispara quando a um redimencionamento da janela.
 
 //-------------Evento de onclick-------------------------
 
-/* 
+
 function eventoClick() {
-    alert('Acionar um evento de click');
+ /*    alert('Acionar um evento de click'); */
     document.body.style.background = "orange";
-} */
+} 
 
 
 //Evento ondblclick
 
-function eventoDblClick() {
+ function eventoDblClick() {
     alert('Evento de click duplo');
-    document.body.style.background = "orange";
+    document.body.style.background = "orange"; 
 }
  
 //---------------------EVENTOS MOUSE----------------------
@@ -569,6 +569,8 @@ function viraVioleta(){
  */
 
 //onchange
-function mudou() {
+/* function mudou() {
     console.log('Mudou');
-}
+} */
+
+//onblur

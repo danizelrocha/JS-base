@@ -10,26 +10,21 @@
 <body> 
     <h1>Aprendendo Javascript</h1>
     <p id="texto"></p>
-
     <!-- <button onclick="eventoClick()">Clique aqui</button>  --> <!-- evento click  -->
-
     <button ondblclick="eventoDblClick()">Clique aqui</button><br><br>
-
     <select onchange="mudou()" id="itens">
         <option value="1">Valor 1</option>
         <option value="2">Valor 2</option>
         <option value="3">Valor 3</option>
         <option value="4">Valor 4</option>
     </select><br><br>
-
     <div id="teste"
        onmousemove="adicionaTexto()" 
        onmouseout="viraVioleta()" 
        onmouseover="viraVermelho()">
    </div> <br>
-
    <input 
-     onchange="mudou()"
+     onblur="eventoClick()"
      id="campoTexto" 
      type="text" 
      placeholder="Digite alguma coisa"
