@@ -563,14 +563,22 @@ function viraVioleta(){
 //----------Evento do tipo input---------------
 
 //onfocus
-/* function limpaTexto() {
+function limpaTexto() {
     document.getElementById("campoTexto").value = "";
 }
- */
+ 
 
 //onchange
-/* function mudou() {
+function mudou() {
     console.log('Mudou');
-} */
+} 
 
 //onblur
+//HTML
+
+//onkeypress
+
+function teclaPressionada() {
+    let input = document.getElementById("campoTexto").value;
+    console.log(input);
+}
