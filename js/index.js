@@ -622,11 +622,17 @@ varitem2 = "feijão";
 varitem3 = "macarrão";
 varitem4 = "leite";
 
-const lista = [
+/* const lista = [
     "arroz", 
     "feijão", 
     "macarrão", 
     "leite"
 ];
 
-alert(lista[0]);
+alert(lista[0]); */
+
+const lista = [];
+lista[0] = "arroz";
+lista[1] = "feijão";
+lista[2] = "macarrão";
+lista[3] = "leite";
