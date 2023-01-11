@@ -666,13 +666,27 @@ console.log(lista); */
 
 
 
+/* var item1 = "arroz";
+var item2 = "feijão";
+var item3 = "macarrão";
+var item4 = "leite"; 
+
+const pessoa = ["Daniel", "Rocha", 45]; */ //arrays
+/* const pessoa = {nome:"Daniel", sobrenome:"Rocha", idade:45}; //objeto */
+/* 
+pessoa.nome; //objeto
+pessoa[0]; //arrays */
+
+
+
 var item1 = "arroz";
 var item2 = "feijão";
 var item3 = "macarrão";
 var item4 = "leite"; 
 
-const pessoa = ["Daniel", "Rocha", 45]; //arrays
-/* const pessoa = {nome:"Daniel", sobrenome:"Rocha", idade:45}; //objeto */
+const pessoa = ["Daniel", "Rocha", 45, "Dev"]; //arrays -> 3 itens.
 
-pessoa.nome; //objeto
-pessoa[0]; //arrays
+/* alert(pessoa.length);  */
+
+alert(pessoa[pessoa.length - 1]) ; // mostra o ultimo item de uma lista independente da quantidade.
+
