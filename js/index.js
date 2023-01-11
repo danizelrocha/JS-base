@@ -704,7 +704,14 @@ var item4 = "leite";
 console.log(pessoa);
  */
 
-const pessoa = ["Daniel", "Rocha", 45, "Dev"];
+/* const pessoa = ["Daniel", "Rocha", 45, "Dev"];   //arrays 
 pessoa[8] = "Solteiro";
 
-alert (pessoa[6]);
+alert (pessoa[6]); */
+
+/* const pessoa = ["Daniel", "Rocha", 45, "Dev"];   //arrays checando se é um arrays
+ alert (Array.isArray(pessoa)); */
+
+
+ const pessoa = ["Daniel", "Rocha", 45, "Dev"];   //arrays checando se é um arrays 
+ alert (Array.isArray(x));
