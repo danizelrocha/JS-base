@@ -19,7 +19,7 @@ var pote = "Bombom";
  alert(pote);
 
 /* Buscar resultados no inspecionar  dentro a opção console */
-var a =1;
+/* var a =1;
 var b = 5;
 var c = a + b;
 console.log(c);
@@ -47,7 +47,7 @@ document.getElementById("texto").innerHTML = pessoa;
 
 var PESSOA = "Daniel";
 var pessoa = "Rocha";
-console.log(PESSOA); /* ele vai buscar por pessoa ou PESSOA individualmente ele entende cada declaração como unica */ 
+console.log(PESSOA); */ /* ele vai buscar por pessoa ou PESSOA individualmente ele entende cada declaração como unica */ 
 
 
  
@@ -280,10 +280,100 @@ alert('A resposta é : ' + resultado + ' A idade dele é de : '+ idade +' anos.'
 
 //Negação
 
-var idade , eleitor, resultado;
+/* var idade , eleitor, resultado;
 idade = 71;
 eleitor = (idade <= 16) ? "Não, Eleitor." : "Sim, Eleitor.";
 
 resultado = !(idade === 65); //True //False o caractere ! significa negação
 
-alert('A resposta é : ' + resultado + ' A idade dele é de : '+ idade +' anos.');
+alert('A resposta é : ' + resultado + ' A idade dele é de : '+ idade +' anos.'); */
+
+
+
+
+//FUNÇÕES
+/* Uma função JavaScript é um bloco de código projetado para executar uma tarefa específica
+
+é como uma pequena "fabricá" onde onde você faz uma entrada e ele te dá uma saida
+
+Pode ser encarado como "mini programas" projetados para fazer uma tarefa que vai
+contribuir para todo o código
+
+Uma função JavaScript é excutada quando "algo" a inca (chama-a).
+*/
+// Primeiro exemplo
+/* function soma(valor1, valor2) {
+    return valor1 + valor2;
+}
+
+document.getElementById("texto").innerHTML = soma(10,23); */
+
+
+//OU
+/* function soma(valor1, valor2) {
+    return valor1 + valor2;
+}
+
+var total = soma(10,23);
+
+alert(total); */
+
+// Exemplo monetário
+/* function soma(valor1, valor2) {
+    return valor1 + valor2;
+}
+
+function realParaDolar ( real, cotacaoDolar){
+    return real * cotacaoDolar;
+}
+
+var total = realParaDolar(10, 5.08);
+
+alert(total); */
+
+// Exemplo 2 monetario
+
+/* function soma(valor1, valor2) {
+    return valor1 + valor2;
+}
+
+function realParaDolar ( real, cotacaoDolar){
+    return real * cotacaoDolar;
+}
+
+var valorReal = 7.89;
+var cotacao = 5.08;
+
+var total = realParaDolar(valorReal, cotacao);
+
+alert("O valor em real é R$: " +valorReal+" o valor em dólar U$ é: "+total); */
+
+
+//Alerta by button
+
+/* function alertaHello() {
+    alert("Hello people");
+}
+ */
+
+
+// Alerta direto
+/* alertaHello(); */
+
+
+// Celsius para Fahrenheit
+
+/* function paraCelsius(valorFahrenheit){
+    return (5 / 9) * (valorFahrenheit - 32);
+}
+var x = paraCelsius(60);
+
+alert("A temperatura é de " + x +" graus celcius"); */
+
+
+
+//Variaveis em função
+/* function minhafuncao(){
+    var x = 2;
+}
+ */
