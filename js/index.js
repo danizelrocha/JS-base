@@ -692,10 +692,10 @@ alert(pessoa[pessoa.length - 1]) ; */ // mostra o ultimo item de uma lista indep
 
 
 
-var item1 = "arroz";
+/* var item1 = "arroz";
 var item2 = "feijão";
 var item3 = "macarrão";
-var item4 = "leite"; 
+var item4 = "leite";  */
 
 /* const pessoa = ["Daniel", "Rocha", 45, "Dev"]; */ //arrays 
 /* pessoa.push("Brasileiro"); */
@@ -713,5 +713,15 @@ alert (pessoa[6]); */
  alert (Array.isArray(pessoa)); */
 
 
- const pessoa = ["Daniel", "Rocha", 45, "Dev"];   //arrays checando se é um arrays 
- alert (Array.isArray(x));
+/*  const pessoa = ["Daniel", "Rocha", 45, "Dev"];   //arrays checando se é um arrays 
+ alert (Array.isArray(x)); */
+
+
+var item1 = "arroz";
+var item2 = "feijão";
+var item3 = "macarrão";
+var item4 = "leite"; 
+
+const pessoa = ["Daniel", "Rocha", 45, "Dev"];   //arrays
+
+document.getElementById("teste").innerHTML = pessoa.join(" - ");
