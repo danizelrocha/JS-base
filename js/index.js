@@ -52,6 +52,10 @@ console.log(PESSOA); */ /* ele vai buscar por pessoa ou PESSOA individualmente e
 
  
 
+
+
+
+
 /* Entendendo operadores:
 -> Os operadores de Javascript são usados para atribuir valores,
 comparar valores, executar operações aritiméticas e muito mais.
@@ -105,6 +109,8 @@ alert('O valor1 ficou: ' + valor1);  */
 
 
 
+
+
  // Operadores de Atribuição
 
 /* var valor1, valor2, total;
@@ -117,6 +123,8 @@ valor1 += valor2;  */
 
 
 
+
+
 // Operador Sequência -> concatenar sinal de + se transforma para concatenar string com string, uma sequência.
 
 /* var valor1, valor2, total;
@@ -125,6 +133,8 @@ valor2 = "Rocha";
 
 total = valor1 + valor2;
 alert(total); */
+
+
 
 
 
@@ -247,6 +257,8 @@ alert(total); */
 
 
 
+
+
 /* // Operador Ternario ou condicional
 
 var idade , eleitor;
@@ -254,6 +266,9 @@ idade = 25;
 eleitor = (idade<=16) ? "Não, Eleitor." : "Sim, Eleitor.";
 
 alert('A resposta é : ' + eleitor + ' A idade dele é de : '+ idade +' anos.'); */
+
+
+
 
 
 
@@ -287,6 +302,10 @@ eleitor = (idade <= 16) ? "Não, Eleitor." : "Sim, Eleitor.";
 resultado = !(idade === 65); //True //False o caractere ! significa negação
 
 alert('A resposta é : ' + resultado + ' A idade dele é de : '+ idade +' anos.'); */
+
+
+
+
 
 
 
@@ -380,6 +399,8 @@ alert("A temperatura é de " + x +" graus celcius"); */
 
 
 
+
+
 /* OBJETO
 Objetos são basicamente variáveis com muitos valores dentro.
 
@@ -446,7 +467,7 @@ carro.buzina(); */
 
 
 //Metodo completo para chamar no console
-
+/* 
 const carro = {
     marca:"Ford",
     modelo: "Ka",
@@ -461,4 +482,32 @@ const carro = {
     }
 };
 
-console.log(carro.completo());
+console.log(carro.completo()); */
+
+
+
+
+
+
+/* EVENTOS
+Evento são ações disparadas pela interação dos usuarios na página.
+É o correto manejo desses eventos que tornam as páginas interativas e dinãmicas.
+
+Existem muitos eventos. Veja os mais utilizados.
+
+onclick -> Dispara quando recebe um click.
+ondblclick-> Dispara quando clicado duas vezes.
+onmouseover -> Dispara quando o mouse está sobre.
+onmoudeout -> Dispara quando o mouse é movido para fora do elemento.
+onmousemove -> Dispara quando o mouse é movido no elemento.
+onmousedown -> Dispara quando o click do botão foi precionado.
+onmouseup -> Dispara quando o click do botão é liberado.
+onfocus -> Dispara quando o elemento recebe foco. Valido para input, 
+onchange -> Dipara quando existe uma mudança no conteudo. "Ao mudar".
+onblur -> Dispara quando o elemeto perde o foco.
+onkeydown -> Dispara quando uma tecla é precionada.
+onkeypress -> Dispara quando uma tecla é precionada e solta.
+onkeyup -> Dispara quando uma tecla é sota sobre um elemento.
+onload -> Dispara quando a página terminou de ser carregada. Boddy.
+onresize -> Dispara quando a um redimencionamento da janela.
+*/
