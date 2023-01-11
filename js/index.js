@@ -617,10 +617,10 @@ Os arrays JavaScript são usados para armazernas vários valores
  
  E assim por diante.
  */
-varitem1 = "arroz";
-varitem2 = "feijão";
-varitem3 = "macarrão";
-varitem4 = "leite";
+/* var item1 = "arroz";
+var item2 = "feijão";
+var item3 = "macarrão";
+var item4 = "leite"; */
 
 /* const lista = [
     "arroz", 
@@ -642,4 +642,24 @@ lista[3] = "leite"; */
 
 
 
-const lista = new Array("arroz","feijão","macarrão","leite");
+/* const lista = new Array("arroz","feijão","macarrão","leite"); */
+
+
+
+var item1 = "arroz";
+var item2 = "feijão";
+var item3 = "macarrão";
+var item4 = "leite";
+
+/* const lista = ["arroz","feijão","macarrão","leite"];
+let x = lista[3];
+alert(x); */
+
+
+
+//Uso frequnte de array
+const lista = ["arroz","feijão","macarrão","leite"];
+lista[0] = "Café";
+alert(lista[0]); 
+
+console.log(lista);
