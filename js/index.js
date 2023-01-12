@@ -716,11 +716,11 @@ alert (pessoa[6]); */
 /*  const pessoa = ["Daniel", "Rocha", 45, "Dev"];   //arrays checando se é um arrays 
  alert (Array.isArray(x)); */
 
-
+/* 
 var item1 = "arroz";
 var item2 = "feijão";
 var item3 = "macarrão";
-var item4 = "leite"; 
+var item4 = "leite";  */
 /* 
 const lista1 = [" Arroz ", " Feijão ", " Leite "," Macarrão "];//arrays
 const lista2 = [" Suco "," Refrigerante "," Agua "];  
@@ -802,11 +802,23 @@ function MaiorNumero(array) {
     return Math.max.apply(null, array);
 }
  */
-
+/* 
 const numeros = [40, -100, 1, 5, 25, 10, 200, 153, 9, 32, 236514526];
 
 document.getElementById("teste").innerHTML = MenorNumero(numeros) ;
 
 function MenorNumero(array) {
     return Math.min.apply(null, array);
+} */
+
+
+
+const numeros = [40, -100, 1, 5, 25, 10, 200, 153, 9, 32, 236514526];
+const maior20 = numeros.filter(filtragem);
+
+document.getElementById("teste").innerHTML = maior20;
+
+function filtragem(value, index, array) {
+    return value > 20;
 }
+
