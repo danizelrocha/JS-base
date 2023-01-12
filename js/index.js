@@ -794,10 +794,19 @@ document.getElementById("teste").innerHTML = numeros; */
 
 
 
-const numeros = [40, 100, 1, 5, 25, 10, 200, 153, 9, 32, 236514526];
+/* const numeros = [40, 100, 1, 5, 25, 10, 200, 153, 9, 32, 236514526];
 
 document.getElementById("teste").innerHTML = MaiorNumero(numeros) ;
 
 function MaiorNumero(array) {
     return Math.max.apply(null, array);
+}
+ */
+
+const numeros = [40, -100, 1, 5, 25, 10, 200, 153, 9, 32, 236514526];
+
+document.getElementById("teste").innerHTML = MenorNumero(numeros) ;
+
+function MenorNumero(array) {
+    return Math.min.apply(null, array);
 }
