@@ -723,5 +723,6 @@ var item3 = "macarrão";
 var item4 = "leite"; 
 
 const pessoa = ["Daniel", "Rocha", 45, "Dev"];   //arrays
+pessoa.shift(); //remove o primeiro item
 
-document.getElementById("teste").innerHTML = pessoa.join(" - ");
+document.getElementById("teste").innerHTML = pessoa;
