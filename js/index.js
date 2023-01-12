@@ -768,7 +768,7 @@ document.getElementById("teste").innerHTML = jogeOrdem;  */
 
 
 
-const jogadores = [
+/* const jogadores = [
     " Biro Biro",
     " Ribamar",
     " Pelé", 
@@ -782,4 +782,11 @@ const jogadores = [
  jogadores.sort();
  jogadores.reverse();
 
-document.getElementById("teste").innerHTML = jogadores; 
+document.getElementById("teste").innerHTML = jogadores;  */
+
+
+const numeros = [40, 100, 1, 5, 25, 10, 200, 153, 9, 32, 236514526];
+
+numeros.sort(function (a, b){return a - b});
+
+document.getElementById("teste").innerHTML = numeros;
