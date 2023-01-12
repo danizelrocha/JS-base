@@ -722,7 +722,12 @@ var item2 = "feijão";
 var item3 = "macarrão";
 var item4 = "leite"; 
 
-const pessoa = ["Daniel", "Rocha", 45, "Dev"];   //arrays
-pessoa.splice(1,0, "Item adicionado 1", "Item adicionado 2"); //remove o primeiro item
+const lista1 = [" Arroz ", " Feijão ", " Leite "," Macarrão "];//arrays
+const lista2 = [" Suco "," Refrigerante "," Agua "];  
+const lista3 = [" Roupa "," Chinelo "," Calça "];
+const lista4 = [" Salgadinho "," Chocolate "," Amendoim. "]
 
-document.getElementById("teste").innerHTML = pessoa;
+const superLista = lista1.concat(lista2, lista3, lista4);
+
+
+document.getElementById("teste").innerHTML = superLista;
