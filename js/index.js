@@ -750,7 +750,7 @@ const craques = jogadores.slice(2, 6);
 document.getElementById("teste").innerHTML = craques;  */
 
 
-const jogadores = [
+/* const jogadores = [
     " Biro Biro ",
     " Ribamar ",
     " Pelé ", 
@@ -763,4 +763,23 @@ const jogadores = [
 
 const jogeOrdem = jogadores.sort();
 
-document.getElementById("teste").innerHTML = jogeOrdem; 
+document.getElementById("teste").innerHTML = jogeOrdem;  */
+
+
+
+
+const jogadores = [
+    " Biro Biro",
+    " Ribamar",
+    " Pelé", 
+    " Maradona", 
+    " Neymar", 
+    " Cristiano Ronaldo", 
+    " Vampeta", 
+    " Junior Baiano"
+];//arrays
+
+ jogadores.sort();
+ jogadores.reverse();
+
+document.getElementById("teste").innerHTML = jogadores; 
