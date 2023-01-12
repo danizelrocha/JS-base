@@ -721,7 +721,7 @@ var item1 = "arroz";
 var item2 = "feijão";
 var item3 = "macarrão";
 var item4 = "leite"; 
-
+/* 
 const lista1 = [" Arroz ", " Feijão ", " Leite "," Macarrão "];//arrays
 const lista2 = [" Suco "," Refrigerante "," Agua "];  
 const lista3 = [" Roupa "," Chinelo "," Calça "];
@@ -730,4 +730,21 @@ const lista4 = [" Salgadinho "," Chocolate "," Amendoim. "]
 const superLista = lista1.concat(lista2, lista3, lista4);
 
 
-document.getElementById("teste").innerHTML = superLista;
+document.getElementById("teste").innerHTML = superLista; */
+
+
+
+const jogadores = [
+    " Biro Biro ",
+    " Ribamar ",
+    " Pelé ", 
+    " Maradona. ", 
+    " Neymar ", 
+    " Cristiano Ronaldo ", 
+    " Vampeta ", 
+    " junior Baiano "
+];//arrays
+
+const craques = jogadores.slice(2, 6);
+
+document.getElementById("teste").innerHTML = craques; 
