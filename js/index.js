@@ -734,7 +734,7 @@ document.getElementById("teste").innerHTML = superLista; */
 
 
 
-const jogadores = [
+/* const jogadores = [
     " Biro Biro ",
     " Ribamar ",
     " Pelé ", 
@@ -747,4 +747,20 @@ const jogadores = [
 
 const craques = jogadores.slice(2, 6);
 
-document.getElementById("teste").innerHTML = craques; 
+document.getElementById("teste").innerHTML = craques;  */
+
+
+const jogadores = [
+    " Biro Biro ",
+    " Ribamar ",
+    " Pelé ", 
+    " Maradona. ", 
+    " Neymar ", 
+    " Cristiano Ronaldo ", 
+    " Vampeta ", 
+    " Junior Baiano "
+];//arrays
+
+const jogeOrdem = jogadores.sort();
+
+document.getElementById("teste").innerHTML = jogeOrdem; 
