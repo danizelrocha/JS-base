@@ -2,7 +2,7 @@ document.getElementById("texto").innerHTML = "Meu primeiro texto <b>JS</b>!";
 console.log("Oi isso é um console log");
 function minhafuncao(){
     document.write(5+5);
-}
+} 
 /*
 Vamos entedre as variaveis
 Variáveis são recipientes onde podemos armazenar informações que 
@@ -813,13 +813,80 @@ function MenorNumero(array) {
 
 
 
-const numeros = [40, -100, 1, 5, 25, 10, 200, 153, 9, 32, 236514526];
+/* const numeros = [40, -100, 1, 5, 25, 10, 200, 153, 9, 32, 236514526];
 const maior20 = numeros.filter(filtragem);
 
 document.getElementById("teste").innerHTML = maior20;
 
 function filtragem(value, index, array) {
     return value > 20;
-}
+} */
+
+
+
+
+
+
+
+
+
+
 
 // IF ELSE
+
+// A lampada está ligada
+
+/* var interrupitor = "on";
+
+if (interrupitor =="on") {
+    alert ('A lampada está ligada');
+    } else {
+        alert('A lampada está desligada');
+    } */
+
+// A lampada está desligada
+
+/* var interrupitor = "off";
+
+if (interrupitor =="on") {
+    alert ('A lampada está ligada');
+    } else {
+        alert('A lampada está desligada');
+    } */
+
+// Exemplo com a hora do pc 
+
+/* var hora = new Date(). getHours();
+    alert(hora);
+ */
+
+
+// Bom dia - Bao tarde - Boa noite
+
+/* var hora = new Date(). getHours();
+
+if (hora < 12) {
+    alert('Bom dia');
+} else if (hora < 18){
+    alert ('Boa tarde');
+} else{
+    alert('Boa noite'); 
+} */
+
+// Verificar campo
+
+function Verificar(){
+    let nome = document.getElementById("nome").value;
+
+    if (nome =="" || nome == null) {
+        let p = document.getElementById("teste");
+        p. innerHTML = "O campo não pode ser vazio";
+        p.style.color = "red";
+    }else{
+        let p = document.getElementById("teste");
+        p. innerHTML = "Parabéns tudo certo";
+        p.style.color = "green";
+
+    }
+}
+      
