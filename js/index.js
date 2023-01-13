@@ -892,4 +892,25 @@ if (hora < 12) {
       
 
 
-//switch
+/* Switch
+É usado para realizar diferentes ações com base em diferentes condições
+no mesmo bloco de verificação. Caso a condição não seja compativel
+não será executado e o valor padrão será acionado. */
+
+switch( expressao) {
+    case a:
+        //o que acontece
+        break;
+    case b:
+        //o que acontece
+        break;
+    case c:  
+        //o que acontece
+        break;
+    default:    
+    // o que acontece  
+        
+
+
+
+}
