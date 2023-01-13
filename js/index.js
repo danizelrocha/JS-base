@@ -875,7 +875,7 @@ if (hora < 12) {
 
 // Verificar campo
 
-function Verificar(){
+/* function Verificar(){
     let nome = document.getElementById("nome").value;
 
     if (nome =="" || nome == null) {
@@ -888,5 +888,8 @@ function Verificar(){
         p.style.color = "green";
 
     }
-}
+} */
       
+
+
+//switch
