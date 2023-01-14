@@ -1040,7 +1040,18 @@ repetidas vezes.*/
 
 
 
-//ordem decrescente
+/* //ordem decrescente
 for(let i = 2023; i >= 1900; i--){
     document.getElementById("ano").innerHTML +="<option value'"+i+"'>"+i+"</option>";
-}
+} */
+
+
+
+
+//ordem decrescente FULL YEAR
+
+var ano = new Date().getFullYear();
+
+for(let i = ano; i >= 1900; i--){
+    document.getElementById("ano").innerHTML +="<option value'"+i+"'>"+i+"</option>";
+} 
