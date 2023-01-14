@@ -1031,6 +1031,16 @@ repetidas vezes.*/
 } */
 
 
-for(let i=1900; i<=2023; i++){
+
+//ordem crescente
+/* for(let i=1900; i<=2023; i++){
+    document.getElementById("ano").innerHTML +="<option value'"+i+"'>"+i+"</option>";
+} */
+
+
+
+
+//ordem decrescente
+for(let i = 2023; i >= 1900; i--){
     document.getElementById("ano").innerHTML +="<option value'"+i+"'>"+i+"</option>";
 }
