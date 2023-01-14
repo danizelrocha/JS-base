@@ -919,10 +919,9 @@ não será executado e o valor padrão será acionado. */
 
 
 
-
-function verificarCor(){
+/* function verificarCor(){
     let cor = document.getElementById("cor").value;
-    cor = cor.toLowerCase();
+    cor = cor.toLowerCase();  //IMPORTANTICIMO PARA CONVERTE AS PALAVRAS EM FORMATO QUE SEJAM LIDAS.
 
     switch (cor) {
         case "azul":
@@ -941,7 +940,7 @@ function verificarCor(){
         // o que acontece 
         document.getElementById("teste").innerHTML = "Nenhuma cor disponível para: "+cor; 
     }
-} 
+}   */
 
 
 
@@ -962,3 +961,50 @@ function verificaCor(){
     }  
 } 
  */
+
+
+
+
+
+//Dia da semana
+
+function diaDaSemana(){
+    var dia = new Date().getDay();
+
+    console.log(dia);
+
+    switch (dia) {
+        case 0:
+            //o que acontece
+            document.getElementById("teste").innerHTML ="Hoje é Domingo";
+            break;
+        case 1:
+            //o que acontece
+            document.getElementById("teste").innerHTML = "Hoje é Segunda-Feira";
+            break;
+        case 2:  
+            //o que acontece
+            document.getElementById("teste").innerHTML = "Hoje é Terça-Feira";
+            break;
+         case 3:  
+            //o que acontece
+            document.getElementById("teste").innerHTML = "Hoje é Quarta-Feira";
+            break;
+        case 4:  
+            //o que acontece
+            document.getElementById("teste").innerHTML = "Hoje é Quinta-Feira";
+            break;
+        case 5:  
+            //o que acontece
+            document.getElementById("teste").innerHTML = "Hoje é Sexta-Feira";
+            break;
+        case 6:  
+            //o que acontece
+            document.getElementById("teste").innerHTML = "Hoje é Sábado";
+            break;
+
+        default:    
+        // o que acontece 
+        document.getElementById("teste").innerHTML = " Não sei que dia é..."; 
+    }
+} 
