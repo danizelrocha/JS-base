@@ -898,6 +898,8 @@ if (hora < 12) {
 
 
 
+
+
 /* Switch
 É usado para realizar diferentes ações com base em diferentes condições
 no mesmo bloco de verificação. Caso a condição não seja compativel
@@ -964,10 +966,8 @@ function verificaCor(){
 
 
 
-
-
 //Dia da semana
-
+/* 
 function diaDaSemana(){
     var dia = new Date().getDay();
 
@@ -1008,3 +1008,21 @@ function diaDaSemana(){
         document.getElementById("teste").innerHTML = " Não sei que dia é..."; 
     }
 } 
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------LAÇO DE REPETIÇÃO  FOR---------------
+Laços oferencem um jeito fácil e rápido de executar uma ação de 
+repetidas vezes.*/
+
