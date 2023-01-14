@@ -1060,8 +1060,16 @@ for(let i = ano; i >= 1900; i--){
 
 
 //ordem crescente FULL YEAR
-var ano = new Date().getFullYear();
+/* var ano = new Date().getFullYear();
 
  for(let i=1900; i<=ano; i++){
     document.getElementById("ano").innerHTML +="<option value'"+i+"'>"+i+"</option>";
+} */
+
+// Ação de repetimento com for
+const carros = ["Gol", "Fusca", "Brasília", "Del Rey", "Chevete"];
+var tamanho = carros.length;
+
+for(let i=0; i<tamanho; i++){
+    document.getElementById("teste").innerHTML +=carros[i] + " - ";
 }
