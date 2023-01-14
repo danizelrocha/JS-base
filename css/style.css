@@ -24,3 +24,10 @@ input{
     border-radius: 12px;
 }
 
+select{
+    color: rgb(243, 252, 243);
+    background-color: green;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
