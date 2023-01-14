@@ -1066,10 +1066,15 @@ for(let i = ano; i >= 1900; i--){
     document.getElementById("ano").innerHTML +="<option value'"+i+"'>"+i+"</option>";
 } */
 
-// Ação de repetimento com for
+/* // Ação de repetimento com for
 const carros = ["Gol", "Fusca", "Brasília", "Del Rey", "Chevete"];
 var tamanho = carros.length;
 
 for(let i=0; i<tamanho; i++){
     document.getElementById("teste").innerHTML +=carros[i] + " - ";
-}
+} */
+
+
+
+/* EVENTOS DE TEMPO COM JAVASCRIPT
+
