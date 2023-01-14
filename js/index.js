@@ -1,8 +1,10 @@
-document.getElementById("texto").innerHTML = "Meu primeiro texto <b>JS</b>!";
-console.log("Oi isso é um console log");
-function minhafuncao(){
+/* document.getElementById("texto").innerHTML = "Meu primeiro texto <b>JS</b>!";
+console.log("Oi isso é um console log"); */
+
+
+/* function minhafuncao(){
     document.write(5+5);
-} 
+}  */
 /*
 Vamos entedre as variaveis
 Variáveis são recipientes onde podemos armazenar informações que 
@@ -889,7 +891,11 @@ if (hora < 12) {
 
     }
 } */
-      
+    
+
+
+
+
 
 
 /* Switch
@@ -897,7 +903,7 @@ if (hora < 12) {
 no mesmo bloco de verificação. Caso a condição não seja compativel
 não será executado e o valor padrão será acionado. */
 
-switch( expressao) {
+/* switch( expressao) {
     case a:
         //o que acontece
         break;
@@ -909,8 +915,50 @@ switch( expressao) {
         break;
     default:    
     // o que acontece  
-        
+} */
 
 
 
-}
+
+function verificarCor(){
+    let cor = document.getElementById("cor").value;
+    cor = cor.toLowerCase();
+
+    switch (cor) {
+        case "azul":
+            //o que acontece
+            document.body.style.background = "blue";
+            break;
+        case "vermelho":
+            //o que acontece
+            document.body.style.background = "red";
+            break;
+        case "amarelo":  
+            //o que acontece
+            document.body.style.background = "yellow";
+            break;
+        default:    
+        // o que acontece 
+        document.getElementById("teste").innerHTML = "Nenhuma cor disponível para: "+cor; 
+    }
+} 
+
+
+
+/* 
+function verificaCor(){
+    let cor = document.getElementById("cor").value;
+
+    let x = 0;
+
+    switch (x) {
+        case 0:
+            //o que acontece
+            document.getElementById("teste").innerHTML = "A variavel é zero.";
+            break;
+        default:    
+            // o que acontece 
+            document.getElementById("teste").innerHTML = "Não foi encontrado."; 
+    }  
+} 
+ */
