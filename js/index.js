@@ -1090,9 +1090,11 @@ settimeout (function, tempo de milicegundos)
 setInteval (function, millisegundo)
 -> É o mesmo que setTimeout(), mas repete a execução da função continuamente.
 
-
-
-
-
-
 */
+
+function ativarContagem(){
+    document.getElementById('tempo'). innerHTML = "Começou a contagem!";
+    setTimeout(function () { 
+        document.getElementById('tempo'). innerHTML = "Executou o setTimeout.";
+    }, 5000);
+}
