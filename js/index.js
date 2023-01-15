@@ -1078,3 +1078,21 @@ for(let i=0; i<tamanho; i++){
 
 /* EVENTOS DE TEMPO COM JAVASCRIPT
 
+Os eventos de tempo permitem a execução o ódigo em intervalos de tempo
+especificados. Esses intervalos de tempo são chamados de eventos de cronometragem.
+
+Os dois métodos-chave para usar um JavaScript são:
+
+settimeout (function, tempo de milicegundos)
+-> Executa uma função, depois de esperar um numero especifico de milissegundos.
+
+
+setInteval (function, millisegundo)
+-> É o mesmo que setTimeout(), mas repete a execução da função continuamente.
+
+
+
+
+
+
+*/
