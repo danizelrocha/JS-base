@@ -1175,7 +1175,7 @@ para fábricar objetos.
 */
 
 
-class Carro{
+/* class Carro{
     constructor(valor1,valor2,valor3){
         this.marca = valor1
         this.modelo = valor2
@@ -1198,5 +1198,19 @@ console.log(uno.frenagem());
 console.log(gol.buzina());
 console.log(sandeiro.aceleraçao());
 gol.ano = 2014;
-console.log(gol);
+console.log(gol); */
 
+
+
+
+
+
+/* 
+---------------MANIPULAR DATAS COM JAVASCRIPT---------------
+
+
+
+
+
+
+*/
