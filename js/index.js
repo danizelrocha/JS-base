@@ -1300,3 +1300,14 @@ function addZerro(x) {return x < 10 ? '0' + x : '' + x; };
 
 let dataPadraoBR = addZerro (diaMes) + "/" + addZerro (mes) + "/" + ano;
 console.log(dataPadraoBR);
+
+
+//COMPARAR DATAS - MAIOR OU MENOR. EX VENCIMENTOS.
+var hoje = new Date();
+var vencimento = new Date(2023, 0, 14);
+
+if (hoje > vencimento){ 
+    console.log ("Sua conta está vencida. Paga o boletão Dona Rose!");
+} else {
+    console.log (" Se liga no boletão dona Rose! ");
+}
