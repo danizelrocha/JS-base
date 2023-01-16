@@ -1132,7 +1132,7 @@ function pararContagem() {
 
 //REGRESSIVO
 
-function ativarContagem(){
+/* function ativarContagem(){
     tempo = setInterval(function (){
      var cronometro = document.getElementById('tempo').innerHTML;
      var soma = parseInt(cronometro) - 1;
@@ -1149,4 +1149,40 @@ function ativarContagem(){
 function pararContagem() {
     clearInterval(tempo);
    // document.getElementById('tempo'). innerHTML = "Parou a contagem.";
-}    
+}     */
+
+
+
+
+
+
+
+
+/*----------------Classes---------------
+
+Classes em JavaScript
+
+Em 2015 foi introduzido as classes  no JavaScript. As calsses são um conceito
+antigo em programação e várias linguagens utilizam elas. Mas no JavaScript isso é 
+relativamente novo, por isso mesmo programadores experientes não sabem muito bem utilizalar.
+
+Basicamente, as classes são como "fabricas" para criar objetos
+Pode ser dizer que são "funções especiais" para a crição de objetos.
+
+Assim como uma fábrica da vida real precisa das máquinas para construir os
+objetos, as Classes no Javascript usam um metodo chamado constructor() 
+para fábricar objetos. 
+*/
+
+
+class Carro{
+    constructor(valor1,valor2,valor3){
+        this.marca = valor1
+        this.modelo = valor2
+        this.ano = valor3
+    }
+}
+const uno = new Carro("Fiat", "Uno", 2001);
+console.log(uno);
+
+
