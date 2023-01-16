@@ -1311,3 +1311,18 @@ if (hoje > vencimento){
 } else {
     console.log (" Se liga no boletão dona Rose! ");
 }
+
+
+//DIFERENÇA ENTRE DUAS DATAS  EM DIAS  
+
+var dataInicial = new Date();
+var dataFinal = new Date(2023, 11, 31);
+
+var diferencaTempo = dataFinal.getTime() - dataInicial.getTime();
+
+var diferencaDias = Math.ceil(diferencaTempo / (24 * 60 * 60 * 1000));
+
+console.log(diferencaDias + "dias");
+
+
+
