@@ -1215,6 +1215,64 @@ console.log(data);
  */
 
 // data com ano atual de 4 digtos
+/* let data = new Date();
+let ano = data.getFullYear();
+console.log(ano); */
+
+//Pegar mês atual
 let data = new Date();
 let ano = data.getFullYear();
 console.log(ano);
+let mes = data.getMonth();
+//Pegar dia do mês - 1 até 31
+let diaMes = data.getDate();
+console.log(diaMes);
+//Dia da semana
+let diaSemana = data.getDay();
+console.log(diaSemana);
+
+//Semana em formato escrito
+const semana = [
+    " Domingo ",
+    " Segunda - Feira ",
+    " Terça - Feira ",
+    " Quarta- Feira ",
+    " Quinta - Feira ",
+    " Sexta - Feira ",
+    " Sabado "
+];
+let semanaEscrito = semana[data.getDay()]
+console.log(semanaEscrito);
+
+//Mês no formato escrito
+const mesesDoAno = [
+    " Janeiro", 
+    " Fevereiro",
+    " Março",
+    " Abril",
+    " Maio",
+    " Junho", 
+    " Julho", 
+    " Agosto", 
+    " Setembro", 
+    " Outubro", 
+    " Novembro", 
+    " Dezembro"]; 
+let mesEscrito =  mesesDoAno[data.getMonth()];
+console.log(mesEscrito);   
+
+// Pegar a hora - DE 0 até 23
+let hora = data.getHours();
+console.log(hora);
+
+// Pegar os minutos - DE 0 até 59
+let minutos = data.getMinutes();
+console.log(minutos);
+
+// Pegar os segundos - DE 0 até 59
+let segundos = data.getSeconds();
+console.log(segundos);
+
+// Pegar os Milisegundos - DE 0 até 999
+let milisegundos = data.getMilliseconds();
+console.log(milisegundos);
