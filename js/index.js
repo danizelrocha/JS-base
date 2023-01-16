@@ -1207,10 +1207,14 @@ console.log(gol); */
 
 /* 
 ---------------MANIPULAR DATAS COM JAVASCRIPT---------------
-
-
-
-
-
-
 */
+
+//Comando base para Data
+/* let data = new Date();
+console.log(data);
+ */
+
+// data com ano atual de 4 digtos
+let data = new Date();
+let ano = data.getFullYear();
+console.log(ano);
