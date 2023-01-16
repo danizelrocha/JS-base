@@ -1276,3 +1276,8 @@ console.log(segundos);
 // Pegar os Milisegundos - DE 0 até 999
 let milisegundos = data.getMilliseconds();
 console.log(milisegundos);
+
+
+//PEGAR DATA NO FORMATO BRASILEIRO - DIA / MÊS / ANO
+let dataBR = data.toLocaleDateString('pt-BR');
+console.log(dataBR);
