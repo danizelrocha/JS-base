@@ -1296,5 +1296,7 @@ diaMes = d.getDate();
 mes = d.getMonth() + 1;
 ano = d.getFullYear();
 
-let dataPadraoBR = diaMes + "/" + mes + "/" + ano;
+function addZerro(x) {return x < 10 ? '0' + x : '' + x; };
+
+let dataPadraoBR = addZerro (diaMes) + "/" + addZerro (mes) + "/" + ano;
 console.log(dataPadraoBR);
