@@ -1278,6 +1278,14 @@ let milisegundos = data.getMilliseconds();
 console.log(milisegundos);
 
 
-//PEGAR DATA NO FORMATO BRASILEIRO - DIA / MÊS / ANO
+/* //PEGAR DATA NO FORMATO BRASILEIRO - DIA / MÊS / ANO
 let dataBR = data.toLocaleDateString('pt-BR');
-console.log(dataBR);
+console.log(dataBR); */
+
+//PEGAR DATA NO FORMATO BRASILEIRO - DIA / MÊS / ANO - sem  hora
+let dataBR = data.toLocaleDateString('pt-BR', {dateStyle:"short"});
+console.log(dataBR); 
+
+/* //PEGAR DATA NO FORMATO BRASILEIRO - DIA / MÊS / ANO - só hora
+let dataBR = data.toLocaleDateString('pt-BR', {timeStyle:"short"});
+console.log(dataBR); */
