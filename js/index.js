@@ -1181,8 +1181,22 @@ class Carro{
         this.modelo = valor2
         this.ano = valor3
     }
+    buzina(){
+        return this.modelo + " buzinou Biiiiiiiiiiiii"
+    }
+    frenagem(){
+        return this.modelo + " freiou Riiiiiiiiiiii"
+    }
+    aceleraçao(){
+        return this.modelo + " acelerou Vrum vrum vrum"
+    }
 }
 const uno = new Carro("Fiat", "Uno", 2001);
-console.log(uno);
-
+const gol = new Carro("Volkswagem", "Gol", 2013);
+const sandeiro = new Carro("Renalt", "Sandeiro", 2015);
+console.log(uno.frenagem());
+console.log(gol.buzina());
+console.log(sandeiro.aceleraçao());
+gol.ano = 2014;
+console.log(gol);
 
