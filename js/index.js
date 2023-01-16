@@ -1289,3 +1289,12 @@ console.log(dataBR);
 /* //PEGAR DATA NO FORMATO BRASILEIRO - DIA / MÊS / ANO - só hora
 let dataBR = data.toLocaleDateString('pt-BR', {timeStyle:"short"});
 console.log(dataBR); */
+
+//PEGAR OS VALORES SEPARADOS
+d = new Date();
+diaMes = d.getDate();
+mes = d.getMonth() + 1;
+ano = d.getFullYear();
+
+let dataPadraoBR = diaMes + "/" + mes + "/" + ano;
+console.log(dataPadraoBR);
