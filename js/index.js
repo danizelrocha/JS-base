@@ -1373,7 +1373,7 @@ let obj = JSON.parse(texto);
 console.log(obj.modelo); */
 
 // SELECIONANDO OBJETO
-const carro = {
+/* const carro = {
     marca: "Fiat ",
     modelo: "Uno ",
     motor: ["1.6", "1.4", "1.0"]
@@ -1388,4 +1388,17 @@ document.getElementById('area').innerHTML = texto;
 let obj = JSON.parse(texto);
 
 //PEGAR VALOR DO OBJETO
-console.log(obj.modelo[2]);
+console.log(obj.modelo[2]); */
+
+
+//PEGANDO CEP
+
+const ajax = new XMLHttpRequest();
+ajax.open('GET', 'https://viacep.com.br/ws/11040280/json/');
+ajax.send();
+
+ajax.onload = function(){
+    document.getElementById('area').innerHTML = this.responseText;
+    let obj = JSON.parse(this.responseText);
+    alert(obj.ddd);
+}
