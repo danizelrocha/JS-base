@@ -1219,7 +1219,7 @@ console.log(data);
 let ano = data.getFullYear();
 console.log(ano); */
 
-//Pegar mês atual
+/* //Pegar mês atual
 let data = new Date();
 let ano = data.getFullYear();
 console.log(ano);
@@ -1229,10 +1229,10 @@ let diaMes = data.getDate();
 console.log(diaMes);
 //Dia da semana
 let diaSemana = data.getDay();
-console.log(diaSemana);
+console.log(diaSemana); */
 
 //Semana em formato escrito
-const semana = [
+/* const semana = [
     " Domingo ",
     " Segunda - Feira ",
     " Terça - Feira ",
@@ -1240,12 +1240,12 @@ const semana = [
     " Quinta - Feira ",
     " Sexta - Feira ",
     " Sabado "
-];
-let semanaEscrito = semana[data.getDay()]
+]; */
+/* let semanaEscrito = semana[data.getDay()]
 console.log(semanaEscrito);
-
+ */
 //Mês no formato escrito
-const mesesDoAno = [
+/* const mesesDoAno = [
     " Janeiro", 
     " Fevereiro",
     " Março",
@@ -1259,23 +1259,23 @@ const mesesDoAno = [
     " Novembro", 
     " Dezembro"]; 
 let mesEscrito =  mesesDoAno[data.getMonth()];
-console.log(mesEscrito);   
+console.log(mesEscrito);  */  
 
 // Pegar a hora - DE 0 até 23
-let hora = data.getHours();
-console.log(hora);
+/* let hora = data.getHours();
+console.log(hora); */
 
 // Pegar os minutos - DE 0 até 59
-let minutos = data.getMinutes();
-console.log(minutos);
+/* let minutos = data.getMinutes();
+console.log(minutos); */
 
 // Pegar os segundos - DE 0 até 59
-let segundos = data.getSeconds();
-console.log(segundos);
+/* let segundos = data.getSeconds();
+console.log(segundos); */
 
 // Pegar os Milisegundos - DE 0 até 999
-let milisegundos = data.getMilliseconds();
-console.log(milisegundos);
+/* let milisegundos = data.getMilliseconds();
+console.log(milisegundos); */
 
 
 /* //PEGAR DATA NO FORMATO BRASILEIRO - DIA / MÊS / ANO
@@ -1283,15 +1283,15 @@ let dataBR = data.toLocaleDateString('pt-BR');
 console.log(dataBR); */
 
 //PEGAR DATA NO FORMATO BRASILEIRO - DIA / MÊS / ANO - sem  hora
-let dataBR = data.toLocaleDateString('pt-BR', {dateStyle:"short"});
-console.log(dataBR); 
+/* let dataBR = data.toLocaleDateString('pt-BR', {dateStyle:"short"});
+console.log(dataBR);  */
 
 /* //PEGAR DATA NO FORMATO BRASILEIRO - DIA / MÊS / ANO - só hora
 let dataBR = data.toLocaleDateString('pt-BR', {timeStyle:"short"});
 console.log(dataBR); */
 
 //PEGAR OS VALORES SEPARADOS
-d = new Date();
+/* d = new Date();
 diaMes = d.getDate();
 mes = d.getMonth() + 1;
 ano = d.getFullYear();
@@ -1299,23 +1299,23 @@ ano = d.getFullYear();
 function addZerro(x) {return x < 10 ? '0' + x : '' + x; };
 
 let dataPadraoBR = addZerro (diaMes) + "/" + addZerro (mes) + "/" + ano;
-console.log(dataPadraoBR);
+console.log(dataPadraoBR); */
 
 
 //COMPARAR DATAS - MAIOR OU MENOR. EX VENCIMENTOS.
-var hoje = new Date();
+/* var hoje = new Date();
 var vencimento = new Date(2023, 0, 14);
 
 if (hoje > vencimento){ 
     console.log ("Sua conta está vencida. Paga o boletão Dona Rose!");
 } else {
-    console.log (" Se liga no boletão dona Rose! ");
+    console.log (" Se liga no boletão dona Rose! "); 
 }
-
+*/
 
 //DIFERENÇA ENTRE DUAS DATAS  EM DIAS  
 
-var dataInicial = new Date();
+/* var dataInicial = new Date();
 var dataFinal = new Date(2023, 11, 31);
 
 var diferencaTempo = dataFinal.getTime() - dataInicial.getTime();
@@ -1323,7 +1323,7 @@ var diferencaTempo = dataFinal.getTime() - dataInicial.getTime();
 var diferencaDias = Math.ceil(diferencaTempo / (24 * 60 * 60 * 1000));
 
 console.log(diferencaDias + "dias");
-
+ */
 
 
 
@@ -1353,7 +1353,24 @@ JSON.parce() -> Converte texto no padrão JSON em objeto.
 JSON.stringify() -> Converte objetos em texto para JSON
 
 */
+// OBJETO CARRO
 
+const carro = {
+    marca: "Fiat ",
+    modelo: "Uno ",
+    motor: ["1.6", "1.4", "1.0"]
+}
+//CONVERTEU PARA TEXTO
+let texto = JSON.stringify(carro);
+
+//COLOCOU TEXTO EM HTML
+document.getElementById('area').innerHTML = texto;
+
+//CONVERTEU TEXTO EM OBJETO
+let obj = JSON.parse(texto);
+
+//PEGAR VALOR DO OBJETO
+console.log(obj.modelo);
 
 
 
