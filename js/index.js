@@ -1354,7 +1354,7 @@ JSON.stringify() -> Converte objetos em texto para JSON
 
 */
 // OBJETO CARRO
-
+/* 
 const carro = {
     marca: "Fiat ",
     modelo: "Uno ",
@@ -1370,7 +1370,22 @@ document.getElementById('area').innerHTML = texto;
 let obj = JSON.parse(texto);
 
 //PEGAR VALOR DO OBJETO
-console.log(obj.modelo);
+console.log(obj.modelo); */
 
+// SELECIONANDO OBJETO
+const carro = {
+    marca: "Fiat ",
+    modelo: "Uno ",
+    motor: ["1.6", "1.4", "1.0"]
+}
+//CONVERTEU PARA TEXTO
+let texto = JSON.stringify(carro);
 
+//COLOCOU TEXTO EM HTML
+document.getElementById('area').innerHTML = texto;
 
+//CONVERTEU TEXTO EM OBJETO
+let obj = JSON.parse(texto);
+
+//PEGAR VALOR DO OBJETO
+console.log(obj.modelo[2]);
