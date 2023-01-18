@@ -1053,7 +1053,7 @@ console.log(obj.modelo[2]); */
 //PEGANDO CEP
 
 
-function buscarCEP() {
+/* function buscarCEP() {
     let input = document.getElementById('cep').value; 
 
     const ajax = new XMLHttpRequest();
@@ -1075,4 +1075,4 @@ function buscarCEP() {
         " <br> Cidade:" + cidade + "<br> Estado:" + estado;
     }
 
-}
+} */
